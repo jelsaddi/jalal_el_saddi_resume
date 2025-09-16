@@ -19,6 +19,7 @@
     erase-style="backspace"
     :erase-on-complete="false"
     caret-animation="blink"
+    style="border:1px solid red; display:block; height:50px;"
   />
 </client-only>
 
