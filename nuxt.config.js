@@ -93,7 +93,7 @@ export default {
    ** https://nuxtjs.org/guide/plugins
    */
   plugins: [
-    { src: "~plugins/swiper.js", ssr: false },
+    { src: "~/plugins/swiper.js", ssr: false },
     { src: "~/plugins/vueTyper.js", ssr: false }
   ],
   /*
