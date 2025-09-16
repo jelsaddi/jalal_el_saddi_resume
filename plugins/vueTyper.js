@@ -1,6 +1,4 @@
-import Vue from 'vue'
-import { VueTyper } from 'vue-typer'
+import Vue from 'vue';
+import { VueTyper } from 'vue-typer';
 
-export default () => {
-  Vue.component('vue-typer', VueTyper)
-}
+Vue.component('vue-typer', VueTyper);
