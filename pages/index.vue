@@ -30,7 +30,7 @@
           <li class="nav-item">
             <a
               class="nav-link js-scroll-trigger"
-              @click="jumpTo('#about')"
+              @click.prevent="jumpTo('#about')"
               href="#"
               >{{ $t('links.about') }}</a
             >
@@ -38,7 +38,7 @@
           <li class="nav-item">
             <a
               class="nav-link js-scroll-trigger"
-              @click="jumpTo('#education')"
+              @click.prevent="jumpTo('#education')"
               href="#"
               >{{ $t('links.education') }}</a
             >
@@ -46,7 +46,7 @@
           <li class="nav-item">
             <a
               class="nav-link js-scroll-trigger"
-              @click="jumpTo('#experience')"
+              @click.prevent="jumpTo('#experience')"
               href="#"
               >{{ $t('links.experience') }}</a
             >
@@ -54,7 +54,7 @@
           <li class="nav-item">
             <a
               class="nav-link js-scroll-trigger"
-              @click="jumpTo('#skills')"
+              @click.prevent="jumpTo('#skills')"
               href="#"
               >{{ $t('links.skills') }}</a
             >
@@ -62,7 +62,7 @@
           <li class="nav-item">
             <a
               class="nav-link js-scroll-trigger"
-              @click="jumpTo('#interests')"
+              @click.prevent="jumpTo('#interests')"
               href="#"
               >{{ $t('links.interests') }}</a
             >
@@ -109,16 +109,18 @@ export default {
   },
   methods: {
     jumpTo(element) {
-      // Select the element in the DOM
-      const target = document.querySelector(element);
-      if (target) {
-        jump(target, {
-          offset: -70, // adjust for fixed navbar
-          duration: 600
-        });
-      }
+      this.$nextTick(() => {
+        const target = document.querySelector(element);
+        if (target) {
+          jump(target, {
+            offset: -70, // adjust for fixed navbar
+            duration: 600
+          });
+        }
+      });
     }
   }
+
 
 
 };

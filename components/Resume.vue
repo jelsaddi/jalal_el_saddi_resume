@@ -46,14 +46,19 @@ export default {
   },
   methods: {
     jumpTo(element) {
-      // Use router base to support GitHub Pages
-      const base = this.$router.options.base || '/';
-      jump(base + element, {
-        offset: -70, // adjust for your fixed navbar height
-        duration: 600
+      this.$nextTick(() => {
+        const target = document.querySelector(element);
+        if (target) {
+          jump(target, {
+            offset: -70, // adjust for fixed navbar
+            duration: 600
+          });
+        }
       });
     }
   }
+
+
 };
 </script>
 
