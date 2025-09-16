@@ -44,9 +44,19 @@ export default {
     Skills,
     Interests
   },
-  methods: {}
+  methods: {
+    jumpTo(element) {
+      // Use router base to support GitHub Pages
+      const base = this.$router.options.base || '/';
+      jump(base + element, {
+        offset: -70, // adjust for your fixed navbar height
+        duration: 600
+      });
+    }
+  }
 };
 </script>
+
 
 <style>
 </style>
