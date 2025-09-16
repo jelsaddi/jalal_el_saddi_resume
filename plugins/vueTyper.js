@@ -1,4 +1,6 @@
-import Vue from 'vue';
-import { VueTyper } from 'vue-typer';
+import Vue from 'vue'
+import { VueTyper } from 'vue-typer'
 
-Vue.component('vue-typer', VueTyper);
+if (process.client) {
+  Vue.component('vue-typer', VueTyper)
+}
