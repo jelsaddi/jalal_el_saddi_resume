@@ -1,0 +1,148 @@
+{
+  "links": {
+    "about": "Über mich",
+    "education": "Ausbildung",
+    "experience": "Berufserfahrung",
+    "skills": "Fähigkeiten",
+    "interests": "Interessen"
+  },
+  "personalInfo": {
+    "name": "Jalal",
+    "lastName": "El Saddi",
+    "subHeadingText": [
+      "Full-Stack-Entwickler",
+      "Code-Enthusiast!"
+    ],
+    "city": "Birkenstraße 15, 58285 Gevelsberg",
+    "phoneNumber": "+49 163 2947537",
+    "email": "jalalsaddi@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/jalal-saddi-58750662/",
+    "github": "https://github.com/jelsaddi/",
+    "myDescription": "Leidenschaftlicher Webentwickler, der nützliche Anwendungen mit den neuesten Technologien erstellt!"
+  },
+  "educationDegrees": {
+    "title": "Ausbildung 📕",
+    "degrees": [
+      {
+        "collage": "Lebanese International University (LIU)",
+        "name": "Master's Degree in Telecommunication Engineering",
+        "itemList": ["Telecommunication, Software Development"],
+        "startEndDate": "2007 - 2009"
+      },
+      {
+        "collage": "Lebanese International University (LIU)",
+        "name": "Bachelor's Degree in Telecommunication Engineering",
+        "itemList": ["Telecommunication, Software Development"],
+        "startEndDate": "2004 - 2007"
+      }
+      ]
+  },
+  "workExperiences": {
+    "title": "Berufserfahrung 🔨",
+    "works": [
+      {
+        "position": "Senior Softwareentwickler",
+        "companie": "Toolineo, Deutschland",
+        "responsabilities": [
+          "Optimierung des PIM-Projekts und des Exports von Marktplatzprodukten (800.000+ Angebote) hinsichtlich Leistung und Skalierbarkeit.",
+          "Entwicklung von Merchant- & Offer-Services mit Quarkus und Keycloak für Authentifizierung, Autorisierung und Benutzerverwaltung.",
+          "Verantwortlich für die Entwicklung von Funktionen des Intershop Commerce Management (ICM).",
+          "Erstellung einer Azure-Funktion zur automatischen Bildgrößenanpassung (klein, mittel, groß) mit Python und Azure-Konfiguration.",
+          "Testen der E-Commerce-Technologie zur Auswahl neuer Entwicklungspartner.",
+          "Teilnahme an geschäftlichen und technischen Workshops zu Intershop Commerce Technology und ICM."
+        ],
+        "startEndDate": "Nov 2019 – Heute"
+      },
+      {
+        "position": "Senior Softwareentwickler",
+        "companie": "Soft Solutions, Libanon",
+        "responsabilities": [
+          "Entwicklung dynamischer, responsiver Dashboards mit KPIs und 2D/3D-Diagrammen unter Verwendung von Highcharts.",
+          "Implementierung von Drill-Down-Diagrammen für detaillierte Datenanalyse.",
+          "Backend-Entwicklung mit Java, JavaScript, SPRING, STRUTS, XML, IBATIS, Oracle.",
+          "Frontend-Entwicklung mit JQuery, AJAX, Bootstrap, Highcharts.",
+          "Anpassung von Kernel-Anwendungen für Tablets und Mobilgeräte.",
+          "Entwicklung von Systemanwendungen mit SPRING 4, Hibernate, Oracle, JPA, MySQL, AngularJS und KENDO.",
+          "Erstellung von Geschäftsmodule in der Master Data Management-Anwendung mit Java, JSP, JavaScript, SPRING, STRUTS, XML, IBATIS und Oracle.",
+          "Erwerb von Expertise in Oracle-Analytikfunktionen, Triggern, Funktionen und Cursorn für komplexe Daten und Parent-Child-Hierarchien.",
+          "Entwicklung von Hierarchieabfragen für Organisations- und Produkthierarchien.",
+          "Pflege und Entwicklung der Module zur Artikel- und Lieferantenverwaltung, einschließlich Artikeltypen, Marken, Identifikatoren, Logistik und Benutzerrechte."
+        ],
+        "startEndDate": "2009 – März 2019 (10 Jahre)"
+      },
+      {
+        "position": "Persönliche Projekte",
+        "companie": "Eigeninitiativ",
+        "responsabilities": [
+          "Vue.js + Spring Boot Voting System: Erstellung einer Full-Stack-Webanwendung mit Abstimmungsfunktionen, Statusverwaltung und Datenpersistenz. Fähigkeiten: Vue.js, Spring Boot, REST-APIs, Datenbankintegration.",
+          "Flutter-App für deutsche Nomen: Entwicklung einer plattformübergreifenden App zum Erlernen deutscher Nomen mit interaktiver UI/UX und effizienter Datenverwaltung. Fähigkeiten: Flutter, Dart, Mobile App Design, Statusverwaltung.",
+          "Flutter-App für 3 deutsche Wortarten (in Arbeit): Erweiterung der App zur Abdeckung von Nomen, Verben und Adjektiven mit skalierbarer Architektur und komplexen Datenstrukturen. Fähigkeiten: Flutter, Dart, fortgeschrittenes Datenmodellieren, UX-Design.",
+          "Zusätzliche angewandte Fähigkeiten: Python-Skripting zur Datengenerierung (Scraping, Verarbeitung, JSON-Erstellung), Full-Stack-Entwicklung (Frontend, Backend, Datenhandling), plattformübergreifende mobile Entwicklung (iOS & Android)."
+        ],
+        "startEndDate": "Mai 2025 – Heute"
+      },
+      {
+        "position": "Geschäftsführer / Verkäufer",
+        "companie": "Mini Market El Saddi, Libanon",
+        "responsabilities": [
+          "Verwaltung von Einkauf, Verkauf, Lagerbestand und Kundenservice."
+        ],
+        "startEndDate": "2011 – 2019"
+      },
+      {
+        "position": "Jugendbetreuer",
+        "companie": "Evangelisches Jugendwerk, Stuttgart, Deutschland",
+        "responsabilities": [
+          "Organisation von Jugendveranstaltungen, kulturellen Abenden und Bistros.",
+          "Gestaltung von Anzeigen und Einladungen.",
+          "Leitung von Spielen und Jugendprogrammen."
+        ],
+        "startEndDate": "2003 – 2004"
+      }
+    ]
+  },
+  "skills": {
+    "title": "Fähigkeiten 🎯",
+    "iconsTitle": "Programmiersprachen & Werkzeuge",
+    "devIcons": [
+      "devicon-java-plain",
+      "devicon-javascript-plain",
+      "devicon-php-plain",
+      "devicon-python-plain",
+      "devicon-dart-plain",
+      "devicon-android-plain",
+      "devicon-spring-plain",
+      "devicon-angularjs-plain",
+      "devicon-vuejs-plain",
+      "devicon-flutter-plain",
+      "devicon-bootstrap-plain",
+      "devicon-jquery-plain-wordmark",
+      "devicon-oracle-original",
+      "devicon-mysql-plain",
+      "devicon-postgresql-plain",
+      "devicon-sqlite-plain",
+      "devicon-mariadb-plain",
+      "devicon-azure-plain",
+      "devicon-git-plain",
+      "devicon-github-original"
+    ],
+    "workflow": "Arbeitsablauf",
+    "itemList": [
+      "Programmiersprachen: Java, JavaScript, JSP, PHP, Python, Dart, Android",
+      "Frameworks & Bibliotheken: SPRING, STRUTS, IBATIS, Quarkus, Keycloak, AngularJS, Vue.js, Flutter, KENDO, JQuery, Bootstrap",
+      "Datenbanken & Messaging: Oracle, MySQL, SQL, SQLite, Postgres, Mariadb, NoSQL, Message-Broker, Warteschlangen",
+      "Tools & Technologien: XML, AJAX, Highcharts, Azure Functions, SAP Hybris CDK, Intershop ICM, REST-APIs"
+    ],
+    "languages": "Sprachen 🌐",
+    "languagesList": [
+      "Arabisch: Muttersprache",
+      "Englisch: Sehr gut",
+      "Deutsch: Sehr gut"
+    ]
+  },
+  "interests": {
+    "title": "Hobbys 😄",
+    "firstBlock": "Abgesehen davon, dass ich Webentwickler bin, verbringe ich die meiste Zeit mit Reisen, Wandern, Schwimmen, Radfahren und Programmieren. 🌍⛰️🏊🚴💻",
+    "secondBlock": "Ich verbringe einen Großteil meiner Freizeit damit, die neuesten technologischen Fortschritte in der Frontend- und Backend-Entwicklung zu erkunden und meine persönlichen Projekte zu programmieren! 🙌👨‍💻"
+  }
+}

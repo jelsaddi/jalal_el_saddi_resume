@@ -1,0 +1,147 @@
+{
+  "links": {
+    "about": "About",
+    "education": "Education",
+    "experience": "Experience",
+    "skills": "Skills",
+    "interests": "Interests"
+  },
+  "personalInfo": 
+  { "name": "Jalal", 
+    "lastName": "El Saddi", 
+    "subHeadingText": [ 
+      "Full Stack Developer", 
+      "Code enthusiast!" ], 
+    "city": "Birkenstraße 15, 58285 Gevelsberg", 
+    "phoneNumber": "+49 163 2947537", 
+    "email": "jalalsaddi@gmail.com", 
+    "linkedin": "https://www.linkedin.com/in/jalal-saddi-58750662/", 
+    "github": "https://github.com/jelsaddi/", 
+    "myDescription": "Passionate web developer, making useful application using the latest technologies!" 
+  },
+"educationDegrees": { 
+  "title": "Education 📕",
+  "degrees": [
+    {
+      "collage": "Lebanese International University (LIU)",
+      "name": "Master's Degree in Telecommunication Engineering",
+      "itemList": ["Telecommunication, Software Development"],
+      "startEndDate": "2007 - 2009"
+    },
+    {
+      "collage": "Lebanese International University (LIU)",
+      "name": "Bachelor's Degree in Telecommunication Engineering",
+      "itemList": ["Telecommunication, Software Development"],
+      "startEndDate": "2004 - 2007"
+    }
+  ]
+},
+"workExperiences": {
+  "title": "Work Experience 🔨",
+  "works": [
+    {
+      "position": "Senior Software Developer",
+      "companie": "Toolineo, Germany",
+      "responsabilities": [
+        "Optimized PIM project and marketplace product export (800,000+ offers) for performance and scalability.",
+        "Developed Merchant & Offer Services using Quarkus and Keycloak for authentication, authorization, and user management.",
+        "Responsible for Intershop Commerce Management (ICM) feature development.",
+        "Built Azure Function for automated image resizing (small, medium, large) using Python and Azure configuration.",
+        "Tested e-commerce technology performance to guide selection of new development partners.",
+        "Participated in business and technical workshops on Intershop Commerce Technology and ICM."
+      ],
+      "startEndDate": "Nov 2019 – Present"
+    },
+    {
+      "position": "Senior Software Developer",
+      "companie": "Soft Solutions, Lebanon",
+      "responsabilities": [
+        "Developed dynamic, responsive dashboards with KPIs and 2D/3D charts using Highcharts.",
+        "Implemented drill-down charts for detailed data exploration.",
+        "Backend development using Java, JavaScript, SPRING, STRUTS, XML, IBATIS, Oracle.",
+        "Frontend development using JQuery, AJAX, Bootstrap, Highcharts.",
+        "Converted Kernel applications to be responsive for tablets and mobiles.",
+        "Developed System Application using SPRING 4, Hibernate, Oracle, JPA, MySQL, AngularJS, and KENDO.",
+        "Built business modules in Master Data Management Application with Java, JSP, JavaScript, SPRING, STRUTS, XML, IBATIS, Oracle.",
+        "Gained expertise in Oracle analytic functions, triggers, functions, and cursors to handle complex data and parent-child hierarchies.",
+        "Developed hierarchy queries for organizational and product hierarchies.",
+        "Maintained and developed Item Management and Supplier Management modules, including item types, brands, identifiers, logistics, and user restrictions."
+      ],
+      "startEndDate": "2009 – Mar 2019 (10 years)"
+    },
+    {
+      "position": "Personal Projects",
+      "companie": "Self-initiated",
+      "responsabilities": [
+        "Vue.js + Spring Boot Voting System: Built a full-stack web app with voting functionality, state management, and data persistence. Skills: Vue.js, Spring Boot, REST APIs, Database Integration.",
+        "Flutter App for German Nouns: Developed a cross-platform mobile app to help users learn German nouns, with interactive UI/UX and efficient data handling. Skills: Flutter, Dart, Mobile App Design, State Management.",
+        "Flutter App for 3 German Word Types (In Progress): Expanding the app to cover nouns, verbs, and adjectives with scalable architecture and complex data structures. Skills: Flutter, Dart, Advanced Data Modeling, UX Considerations.",
+        "Additional Skills Applied: Python scripting for data generation (scraping, processing, JSON generation), full-stack development combining frontend, backend, and data handling, cross-platform mobile development (iOS & Android)."
+      ],
+      "startEndDate": "May 2025 – Present"
+    },
+    {
+      "position": "Shop Keeper",
+      "companie": "Mini Market El Saddi, Lebanon",
+      "responsabilities": [
+        "Managed purchasing, sales, inventory, and customer service."
+      ],
+      "startEndDate": "2011 – 2019"
+    },
+    {
+      "position": "Youth Worker",
+      "companie": "Evangelisches Jugendwerk, Stuttgart, Germany",
+      "responsabilities": [
+        "Organized youth events, cultural evenings, and bistros.",
+        "Designed advertisements and invitations.",
+        "Led games and youth programs."
+      ],
+      "startEndDate": "2003 – 2004"
+    }
+  ]
+},
+"skills": {
+  "title": "Skills 🎯",
+  "iconsTitle": "Programming Languages & Tools",
+  "devIcons": [
+    "devicon-java-plain",
+    "devicon-javascript-plain",
+    "devicon-php-plain",
+    "devicon-python-plain",
+    "devicon-dart-plain",
+    "devicon-android-plain",
+    "devicon-spring-plain",
+    "devicon-angularjs-plain",
+    "devicon-vuejs-plain",
+    "devicon-flutter-plain",
+    "devicon-bootstrap-plain",
+    "devicon-jquery-plain-wordmark",
+    "devicon-oracle-original",
+    "devicon-mysql-plain",
+    "devicon-postgresql-plain",
+    "devicon-sqlite-plain",
+    "devicon-mariadb-plain",
+    "devicon-azure-plain",
+    "devicon-git-plain",
+    "devicon-github-original"
+  ],
+  "workflow": "Workflow",
+  "itemList": [
+    "Programming Languages: Java, JavaScript, JSP, PHP, Python, Dart, Android",
+    "Frameworks & Libraries: SPRING, STRUTS, IBATIS, Quarkus, Keycloak, AngularJS, Vue.js, Flutter, KENDO, JQuery, Bootstrap",
+    "Databases & Messaging: Oracle, MySQL, SQL, SQLite, Postgres, Mariadb, NoSQL, message buses, queues",
+    "Tools & Technologies: XML, AJAX, Highcharts, Azure Functions, SAP Hybris CDK, Intershop ICM, REST APIs"
+  ],
+  "languages": "Languages 🌐",
+  "languagesList": [
+    "Arabic: Native",
+    "English: Very good",
+    "German: Very good"
+  ]
+  },
+  "interests": {
+    "title": "Hobbies 😄",
+    "firstBlock": "Apart from being a web developer, I enjoy most of my time traveling, hiking, swimming, cycling, and programming. 🌍⛰️🏊🚴💻",
+    "secondBlock": "I spend a large amount of my free time exploring the latest technology advancements in frontend and backend development, as well as coding my personal projects! 🙌👨‍💻"
+  }
+}
