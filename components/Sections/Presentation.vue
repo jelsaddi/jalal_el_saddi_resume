@@ -6,7 +6,7 @@
     </h1>
 
 <h3 class="mb-4">
-<client-only>
+
   <vue-typer
     :text="['Full Stack Developer', 'Code enthusiast!']"
     :repeat="Infinity"
@@ -21,7 +21,7 @@
     caret-animation="blink"
     style="border:1px solid red; display:block; height:50px;"
   />
-</client-only>
+
 
 
 </h3>
