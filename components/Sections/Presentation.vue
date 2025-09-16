@@ -7,8 +7,21 @@
 
 <h3 class="mb-4">
 <client-only>
-  <vue-typer :text="['Full Stack Developer', 'Code enthusiast!']" />
+  <vue-typer
+    :text="['Full Stack Developer', 'Code enthusiast!']"
+    :repeat="Infinity"
+    :shuffle="true"
+    initial-action="typing"
+    :pre-type-delay="100"
+    :type-delay="82"
+    :pre-erase-delay="2000"
+    :erase-delay="30"
+    erase-style="backspace"
+    :erase-on-complete="false"
+    caret-animation="blink"
+  />
 </client-only>
+
 
 </h3>
 
