@@ -9,7 +9,7 @@
         <span class="d-none d-lg-block">
           <img
             class="img-fluid img-profile rounded-circle mx-auto mb-2"
-            src="/profile.png"
+            src="profile.png"
             alt=""
           />
         </span>
@@ -26,63 +26,69 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a
-              class="nav-link js-scroll-trigger"
-              @click="jumpTo('#about')"
-              href="#"
-              >{{ $t('links.about') }}</a
-            >
-          </li>
-          <li class="nav-item">
-            <a
-              class="nav-link js-scroll-trigger"
-              @click="jumpTo('#education')"
-              href="#"
-              >{{ $t('links.education') }}</a
-            >
-          </li>
-          <li class="nav-item">
-            <a
-              class="nav-link js-scroll-trigger"
-              @click="jumpTo('#experience')"
-              href="#"
-              >{{ $t('links.experience') }}</a
-            >
-          </li>
-          <li class="nav-item">
-            <a
-              class="nav-link js-scroll-trigger"
-              @click="jumpTo('#skills')"
-              href="#"
-              >{{ $t('links.skills') }}</a
-            >
-          </li>
-          <li class="nav-item">
-            <a
-              class="nav-link js-scroll-trigger"
-              @click="jumpTo('#interests')"
-              href="#"
-              >{{ $t('links.interests') }}</a
-            >
-          </li>
-          <li class="nav-item">
-            <div style="position:fixed; bottom:10px; left:10px; z-index:1000;">
-              <DarkModeBtn />
-            </div>
-          </li>
-          <li class="nav-item">
-            <div style="position:fixed; bottom:10px; right: 10px;z-index:1000;">
-              <nuxt-link class="btn btn-light" :to="switchLocalePath('en')"
-                >EN</nuxt-link
-              >
-              <nuxt-link class="btn btn-light" :to="switchLocalePath('de')"
-                >DE</nuxt-link
-              >
-            </div>
-          </li>
-        </ul>
+<ul class="navbar-nav">
+  <li class="nav-item">
+    <a
+      class="nav-link js-scroll-trigger"
+      @click.prevent="jumpTo('#about')"
+      href="#"
+    >
+      {{ $t('links.about') }}
+    </a>
+  </li>
+  <li class="nav-item">
+    <a
+      class="nav-link js-scroll-trigger"
+      @click.prevent="jumpTo('#education')"
+      href="#"
+    >
+      {{ $t('links.education') }}
+    </a>
+  </li>
+  <li class="nav-item">
+    <a
+      class="nav-link js-scroll-trigger"
+      @click.prevent="jumpTo('#experience')"
+      href="#"
+    >
+      {{ $t('links.experience') }}
+    </a>
+  </li>
+  <li class="nav-item">
+    <a
+      class="nav-link js-scroll-trigger"
+      @click.prevent="jumpTo('#skills')"
+      href="#"
+    >
+      {{ $t('links.skills') }}
+    </a>
+  </li>
+  <li class="nav-item">
+    <a
+      class="nav-link js-scroll-trigger"
+      @click.prevent="jumpTo('#interests')"
+      href="#"
+    >
+      {{ $t('links.interests') }}
+    </a>
+  </li>
+  <li class="nav-item">
+    <div style="position:fixed; bottom:10px; left:10px; z-index:1000;">
+      <DarkModeBtn />
+    </div>
+  </li>
+  <li class="nav-item">
+    <div style="position:fixed; bottom:10px; right: 10px; z-index:1000;">
+      <nuxt-link class="btn btn-light" :to="switchLocalePath('en')">
+        EN
+      </nuxt-link>
+      <nuxt-link class="btn btn-light" :to="switchLocalePath('de')">
+        DE
+      </nuxt-link>
+    </div>
+  </li>
+</ul>
+>
       </div>
     </nav>
 
@@ -109,11 +115,18 @@ export default {
   },
   methods: {
     jumpTo(element) {
-      jump(element);
+      const target = document.querySelector(element);
+      if (target) {
+        jump(target, {
+          offset: -70,   // adjust for fixed navbar height
+          duration: 600  // smooth scrolling
+        });
+      }
     }
   }
 };
 </script>
+
 
 <style scoped>
 h1 {

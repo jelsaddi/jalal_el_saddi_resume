@@ -20,15 +20,11 @@
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
         <Interests />
       </section>
-
-
     </div>
   </section>
 </template>
 
 <script>
-import jump from "jump.js";
-import Logo from "../components/Logo.vue";
 import Presentation from "../components/Sections/Presentation";
 import Education from "../components/Sections/Education";
 import Experience from "../components/Sections/Experience";
@@ -37,16 +33,15 @@ import Interests from "../components/Sections/Interests";
 
 export default {
   components: {
-    Logo,
     Presentation,
     Experience,
     Education,
     Skills,
     Interests
-  },
-  methods: {}
+  }
 };
 </script>
 
 <style>
+/* Add custom styles if needed */
 </style>
