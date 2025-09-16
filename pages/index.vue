@@ -109,13 +109,17 @@ export default {
   },
   methods: {
     jumpTo(element) {
-      const base = this.$router.options.base || '/';
-      jump(base + element, {
-        offset: -70, // optional, adjust if navbar covers the section
-        duration: 600
-      });
+      // Select the element in the DOM
+      const target = document.querySelector(element);
+      if (target) {
+        jump(target, {
+          offset: -70, // adjust for fixed navbar
+          duration: 600
+        });
+      }
     }
   }
+
 
 };
 </script>
