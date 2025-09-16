@@ -1,6 +1,7 @@
 <template>
   <div>
 <h1 class="mb-0">
+   <client-only>
 <vue-typer
   :text="name"
   class="name"
@@ -11,8 +12,9 @@
   :type-delay="82"
   :erase-on-complete="false"
   caret-animation="blink"
-/>
+/></client-only>
 
+<client-only>
 <vue-typer
   :text="lastName"
   class="lastname"
@@ -28,7 +30,7 @@
   :erase-on-complete="false"
   caret-animation="blink"
 />
-
+</client-only>
 </h1>
 
   </div>
